@@ -3,7 +3,7 @@ import { Logo } from "@/components/logo"
 import { Mail, MessageCircle } from "lucide-react"
 
 export function Footer() {
-  const whatsappNumber = "YOUR_WHATSAPP_NUMBER" // Replace with actual number
+  const whatsappNumber = "+917204248989"; // Replace with actual number
   const whatsappLink = `https://wa.me/${whatsappNumber}`
 
   return (

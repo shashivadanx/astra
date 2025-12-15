@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Check, MessageCircle, BookOpen, Target } from "lucide-react"
 
-const whatsappNumber = "YOUR_WHATSAPP_NUMBER" // Replace with actual number
+const whatsappNumber = "+917204248989"; // Replace with actual number
 const whatsappLink = `https://wa.me/${whatsappNumber}?text=Hi! I'd like to register for the free workshop.`
 
 export default function JoinPage() {

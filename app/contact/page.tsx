@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Mail, MessageCircle } from "lucide-react";
 
 export default function ContactPage() {
-  const whatsappNumber = "YOUR_WHATSAPP_NUMBER"; // Replace with actual number
+  const whatsappNumber = "+917204248989"; // Replace with actual number
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
 
   return (
