@@ -16,10 +16,12 @@ export function Footer() {
               <Logo variant="navy-on-white" size="md" />
             </Link>
             <p className="text-sm text-muted-foreground max-w-md leading-relaxed">
-              A modern Math Circle for ambitious young thinkers. Inspired by global Math Circles and Olympiad
-              traditions.
+              A modern Math Circle for ambitious young thinkers. Inspired by
+              global Math Circles and Olympiad traditions.
             </p>
-            <p className="text-lg font-serif font-bold text-foreground mt-6">Where curiosity becomes mastery.</p>
+            <p className="text-lg font-serif font-bold text-foreground mt-6">
+              Where curiosity becomes mastery.
+            </p>
           </div>
 
           {/* Quick Links */}
@@ -27,7 +29,10 @@ export function Footer() {
             <h3 className="font-semibold text-foreground mb-4">Quick Links</h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/programs" className="text-sm text-muted-foreground hover:text-accent transition-colors">
+                <Link
+                  href="/programs"
+                  className="text-sm text-muted-foreground hover:text-accent transition-colors"
+                >
                   Programs
                 </Link>
               </li>
@@ -40,12 +45,18 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-sm text-muted-foreground hover:text-accent transition-colors">
+                <Link
+                  href="/about"
+                  className="text-sm text-muted-foreground hover:text-accent transition-colors"
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/join" className="text-sm text-muted-foreground hover:text-accent transition-colors">
+                <Link
+                  href="/join"
+                  className="text-sm text-muted-foreground hover:text-accent transition-colors"
+                >
                   Join the Circle
                 </Link>
               </li>
@@ -82,10 +93,11 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-border">
           <p className="text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Astra Math Circle. All rights reserved.
+            © {new Date().getFullYear()} Udrodhan EduTech LLP. All rights
+            reserved.
           </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
